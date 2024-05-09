@@ -1,0 +1,28 @@
+INSERT INTO job (jobTypeId, companyId, jobName, minEd, salary, requiredSkills, cityId, url) VALUES
+
+(4, 206, '产品经理', 2, 12000, '用户产品 中台/后台产品', (SELECT cityId FROM city WHERE cityName = '沧州'), 'https://img.bosszhipin.com/beijin/upload/com/workfeel/20220816/7bf6f160950405e98a220361cbfa7de277436b725edc0673546ca3c230c8d912a7bc5c94b7ab6ef7.jpg'),
+(4, 209, '产品经理', 2, 33333, '中台产品 TO B 电子商务 平台产品 功能产品 SAAS产品 云计算 云计算产品', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/mcs/bar/20191129/3cdf5ba2149e309b38868b62ae9c22cabe1bd4a3bd2a63f070bdbdada9aad826.jpg'),
+(4, 283, '产品经理', 2, 29167, '策略产品 交通安全', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/mcs/bar/20201205/25965fbe2c0440e760df2b6a6b81d7c2be1bd4a3bd2a63f070bdbdada9aad826.png'),
+(4, 152, '产品经理', 2, 200, 'B端产品 SAAS产品 需求分析 市场调研 Axure TO B 用户研究 产品设计', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/mcs/banner/b17ae0399cb0df3556938acced524265cfcd208495d565ef66e7dff9f98764da.jpg'),
+(4, 209, '产品经理', 2, 40000, '产品设计 产品规划 用户增长 策略产品 电商产品 Axure', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/mcs/bar/20191129/3cdf5ba2149e309b38868b62ae9c22cabe1bd4a3bd2a63f070bdbdada9aad826.jpg'),
+(4, 209, '产品经理', 2, 290, '产品设计 数据分析 需求分析 功能产品 数据产品 电商产品 CRM产品 风控产品', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/mcs/bar/20191129/3cdf5ba2149e309b38868b62ae9c22cabe1bd4a3bd2a63f070bdbdada9aad826.jpg'),
+(4, 281, '产品经理', 0, 18667, '产品设计 需求分析 项目管理 功能产品 C端产品 Axure TO C 金融', (SELECT cityId FROM city WHERE cityName = '深圳'), 'https://img.bosszhipin.com/beijin/mcs/chatphoto/20180517/d5beb59a817180506f310a7e110e169ccfcd208495d565ef66e7dff9f98764da.jpg'),
+(4, 81, '产品经理', 2, 22500, '产品运营 产品设计 需求分析 产品规划 平台产品', (SELECT cityId FROM city WHERE cityName = '深圳'), 'https://img.bosszhipin.com/beijin/mcs/bar/20200430/4204e9c9f200b00b77fb59d093acd281be1bd4a3bd2a63f070bdbdada9aad826.jpg'),
+(4, 61, '产品经理', 2, 25000, '数据分析 产品经理 项目管理', (SELECT cityId FROM city WHERE cityName = '杭州'), 'https://img.bosszhipin.com/beijin/upload/com/logo/20240407/7b5b554d84f9729cdf49b3b80c1afbe718ee0c7923bf6a74448fdc16e80830ea50631da01c15930d.jpg.webp'),
+(4, 66, '政务产品经理', 2, 10000, '墨刀 功能产品 需求分析 产品规划 Visio 产品设计 市场调研', (SELECT cityId FROM city WHERE cityName = '南宁'), 'https://img.bosszhipin.com/beijin/mcs/chatphoto/20200925/981c7de96e46f790be7edaf06498237c898c5f36ff763bcff8d9ee61c7377416_s.jpg'),
+(4, 4, '广告产品经理', 2, 29167, '策略产品 商业产品 增长产品', (SELECT cityId FROM city WHERE cityName = '杭州'), 'https://img.bosszhipin.com/beijin/upload/com/workfeel/20220316/7bf6f160950405e9282fe33181a1523803562870c4e2cc4a242ac4eb7bbd10d1694083156ab76fdb.jpg'),
+(4, 163, '商业产品经理', 2, 23077, '数据分析 产品经理 商业产品 TO B', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/upload/com/logo/20210323/aab1b65662224a865a9b6ba9aceaab02babfa420ecc134d2606b05aa8114130d.png'),
+(4, 131, '网络产品经理', 2, 33333, 'B端产品 高级产品经理 成本分析 经营分析 网络产品', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/mcs/banner/00c9c1238ae2c986f3e7741be97a9669cfcd208495d565ef66e7dff9f98764da.jpg'),
+(4, 90, '呼叫系统产品经理', 2, 13077, 'B端产品 中台/后台产品 电销外呼系统 客服系统', (SELECT cityId FROM city WHERE cityName = '深圳'), 'https://img.bosszhipin.com/beijin/mcs/banner/8b65e40c527484300d97fe10e1a745a1cfcd208495d565ef66e7dff9f98764da.png'),
+(4, 131, '业务风控产品经理', 2, 30000, '产品设计 需求分析 产品规划 风控产品 TOB 反作弊 业务风控 账号安全', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/mcs/banner/00c9c1238ae2c986f3e7741be97a9669cfcd208495d565ef66e7dff9f98764da.jpg'),
+(4, 61, '产品专家/高级产品经理', 2, 25000, '产品经理 CRM 数据分析 支付产品 CRM产品 金融', (SELECT cityId FROM city WHERE cityName = '杭州'), 'https://img.bosszhipin.com/beijin/mcs/banner/b10345f203d9c0270a26df28e9c00429cfcd208495d565ef66e7dff9f98764da.jpg'),
+(4, 260, '高级产品经理（VoD方向）', 2, 29167, '流媒体 平台架构 OTT', (SELECT cityId FROM city WHERE cityName = '深圳'), 'https://img.bosszhipin.com/beijin/upload/com/workfeel/20240418/7bf6f160950405e9aa40982e30bdda439eb32164eaccc3679f1d74dc2335a154259cc2123fa23d3f.png.webp'),
+(4, 22, '商业化产品经理-生活服务', 2, 33333, '商业产品 策略产品', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/upload/com/workfeel/20231220/7bf6f160950405e993d5441fb36ed39b6e0ceee2dc588906180d77ff8d8c2e0a1cfd08ecf22f82f2.png.webp'),
+(4, 61, '高级产品经理/产品专家-资金业务方向', 2, 47115, '需求分析 产品设计 数据分析 产品规划 项目管理 平台产品 支付 资金网络', (SELECT cityId FROM city WHERE cityName = '杭州'), 'https://img.bosszhipin.com/beijin/mcs/banner/b10345f203d9c0270a26df28e9c00429cfcd208495d565ef66e7dff9f98764da.jpg'),
+(4, 81, '21309-企鹅辅导高级产品策划经理', 2, 30000, '产品经理 在线教育 数据分析', (SELECT cityId FROM city WHERE cityName = '深圳'), 'https://img.bosszhipin.com/beijin/mcs/bar/20200430/4204e9c9f200b00b77fb59d093acd281be1bd4a3bd2a63f070bdbdada9aad826.jpg'),
+(4, 131, '智能汽车事业部-高精地图产品经理', 2, 52500, '测绘 熟悉地图数据 数据分析决策', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/mcs/banner/00c9c1238ae2c986f3e7741be97a9669cfcd208495d565ef66e7dff9f98764da.jpg'),
+(4, 163, '用户服务产品经理（ IM、虚拟号等方向 ）', 0, 30000, '用户/功能产品', (SELECT cityId FROM city WHERE cityName = '北京'), 'https://img.bosszhipin.com/beijin/upload/com/logo/20210314/40431a563e843e1590d1f7d82652d53a0c6262faac2d042da229926610f4b0b6.png'),
+(4, 4, '互联网广告销售', 2, 46154, '五险一金', (SELECT cityId FROM city WHERE cityName = '漳州'), 'https://img.bosszhipin.com/beijin/upload/com/workfeel/20220316/7bf6f160950405e9282fe33181a1523803562870c4e2cc4a242ac4eb7bbd10d1694083156ab76fdb.jpg');
+
+
+

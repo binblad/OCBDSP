@@ -1,0 +1,4 @@
+insert into admin values 
+(1,"admin1","admin1"),
+(2,"admin2","admin2"),
+(3,"admin3","admin3");

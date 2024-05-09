@@ -1,0 +1,6 @@
+insert into appdeveloper values
+(1,1),
+(6,2),
+(11,3),
+(16,4),
+(2,5);

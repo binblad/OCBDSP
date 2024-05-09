@@ -1,0 +1,8 @@
+insert into datasource values
+(1,'webjob获取','无','url',now(),now()),
+(2,'算法job获取','无','url',now(),now()),
+(3,'产品经理job获取','无','url',now(),now()),
+(4,'javajob获取','无','url',now(),now()),
+(5,'其他','无','url',now(),now());
+
+

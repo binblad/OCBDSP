@@ -1,0 +1,7 @@
+insert into app values 
+(1,"app1","app1fordeveloper1"),
+(2,"app2","app2fordeveloper2"),
+(3,"app3","app3fordeveloper3"),
+(4,"app4","app4fordeveloper4"),
+(5,"app5","app5fordeveloper5");
+

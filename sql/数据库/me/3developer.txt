@@ -1,0 +1,6 @@
+insert into developer values
+(1,0),
+(6,0),
+(11,0),
+(16,0),
+(2,0);

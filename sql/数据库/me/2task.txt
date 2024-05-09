@@ -1,0 +1,6 @@
+insert into task values
+(1,1,'webjob获取task','0',0,now(),now()+ INTERVAL 1 HOUR,null,null),
+(2,2,'算法job获取task','0',0,now(),now()+ INTERVAL 1 HOUR,null,null),
+(3,3,'产品经理job获取task','0',0,now(),now()+ INTERVAL 1 HOUR,null,null),
+(4,4,'javajob获取task','0',0,now(),now()+ INTERVAL 1 HOUR,null,null),
+(5,5,'其他task','0',0,now(),now()+ INTERVAL 1 HOUR,null,null);

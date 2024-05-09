@@ -1,0 +1,23 @@
+INSERT INTO user(userId, majorId, account, password, name, gender, age, educationalQualification, email, question, answer) VALUES   
+(1, 1, 'zhang1', 'zhang1', 'zhang1', '0', 25, 2, 'zhang1@qq.com', '母亲名字', 'zhang1mom'),  
+(2, 1, 'zhang2', 'zhang2', 'zhang2', '0', 26, 1, 'zhang2@qq.com', '母亲名字', 'zhang2mom'),  
+(3, 1, 'zhang3', 'zhang3', 'zhang3', '1', 30, 2, 'zhang3@qq.com', '母亲名字', 'zhang3mom'),  
+(4, 1, 'zhang4', 'zhang4', 'zhang4', '1', 35, 3, 'zhang4@qq.com', '母亲名字', 'zhang4mom'),  
+(5, 1, 'zhang5', 'zhang5', 'zhang5', '0', 26, 2, 'zhang5@qq.com', '母亲名字', 'zhang5mom'),  
+(6, 1, 'qiao1', 'qiao1', 'qiao1', '1', 25, 2, 'qiao1@qq.com', '母亲名字', 'qiao1mom'),  
+(7, 1, 'qiao2', 'qiao2', 'qiao2', '0', 27, 3, 'qiao2@qq.com', '母亲名字', 'qiao2mom'),  
+(8, 1, 'qiao3', 'qiao3', 'qiao3', '0', 29, 2, 'qiao3@qq.com', '母亲名字', 'qiao3mom'),  
+(9, 1, 'qiao4', 'qiao4', 'qiao4', '1', 20, 0, 'qiao4@qq.com', '母亲名字', 'qiao4mom'),  
+(10, 1, 'qiao5', 'qiao5', 'qiao5', '0', 25, 2, 'qiao5@qq.com', '母亲名字', 'qiao5mom'),  
+(11, 2, 'huang1', 'huang1', 'huang1', '0', 25, 2, 'huang1@qq.com', '母亲名字', 'huang1mom'),  
+(12, 2, 'huang2', 'huang2', 'huang2', '1', 27, 3, 'huang2@qq.com', '母亲名字', 'huang2mom'),  
+(13, 2, 'huang3', 'huang3', 'huang3', '0', 25, 3, 'huang3@qq.com', '母亲名字', 'huang3mom'),  
+(14, 2, 'huang4', 'huang4', 'huang4', '0', 26, 2, 'huang4@qq.com', '母亲名字', 'huang4mom'),  
+(15, 2, 'huang5', 'huang5', 'huang5', '1', 25, 2, 'huang5@qq.com', '母亲名字', 'huang5mom'),  
+(16, 2, 'li1', 'li1', 'li1', '1', 50, 2, 'li1@qq.com', '母亲名字', 'li1mom'),  
+(17, 2, 'li2', 'li2', 'li2', '0', 30, 3, 'li2@qq.com', '母亲名字', 'li2mom'),  
+(18, 2, 'li3', 'li3', 'li3', '1', 40, 3, 'li3@qq.com', '母亲名字', 'li3mom'),  
+(19, 2, 'li4', 'li4', 'li4', '0', 45, 3, 'li4@qq.com', '母亲名字', 'li4mom'),  
+(20, 2, 'li5', 'li5', 'li5', '0', 35, 2, 'li5@qq.com', '母亲名字', 'li5mom');
+
+

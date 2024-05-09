@@ -1,0 +1,21 @@
+CREATE TABLE apii (  
+   apiId                INT NOT NULL AUTO_INCREMENT COMMENT 'API的唯一标识符',  
+   url                  VARCHAR(254) NOT NULL UNIQUE COMMENT 'API的URL地址',  
+   requestContent       VARCHAR(254) NOT NULL COMMENT '请求的内容或参数',  
+   responseContent      VARCHAR(254) NOT NULL COMMENT '响应的内容或格式',  
+   content              TEXT COMMENT '其他相关信息或描述',  
+   times                INT NOT NULL COMMENT '调用次数或相关数值',  
+   PRIMARY KEY (apiId),  
+);
+INSERT INTO apii VALUES  
+(1,'localhost:8080/admin/get/key','输入参数：String url','输出规范：密钥信息','获得相关key',4),  
+(2,'localhost:8080/admin/get/api','输入参数：String url','输出规范：api信息','获得相关api信息',5),  
+(3,'localhost:8080/datacollection/get/datasource','输入参数：String url,String datasourcename','输出规范：数据源信息','获得数据源datasource信息',2),  
+(4,'localhost:8080/datacollection/get/task','输入参数：String url','输出规范：任务状态','获得实时任务状态',6),  
+(5,'localhost:8080/datacollection/get/log','输入参数：String url','输出规范：任务运行记录','获得任务运行记录',2),  
+(6,'localhost:8080/openapi/get/documnet','输入参数：String url,String apiurl','输出规范：接口文档','获得接口文档',4),  
+(7,'localhost:8080/profession/advice','输入参数：String url,String typeName,int targetMinSalary,int targetMinStaffNumber','输出规范：推荐职业相关数据','职业推荐接口',16),  
+(8,'localhost:8080/report/get/maininf','输入参数：String url,String typeName','输出规范：职业报告所得数据','职业报告接口',11),  
+(9,'localhost:8080/get/job','输入参数：String url,String city','输出规范：job相关数据','职业推荐接口',16),  
+(10,'localhost:8080/get/city','输入参数：String url','输出规范：城市与职业相关信息','职业推荐接口',16);
+
